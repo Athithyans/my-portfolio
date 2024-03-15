@@ -11,8 +11,8 @@ const projectsData = [
     description: "Dynamic, responsive, and engaging web portfolio showcasing my full-stack development skills, utilizing Next.js for seamless server-side rendering, React for interactivity. Innovative portfolio with seamless navigation and sleek design.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Athithyans/my-portfolio",
+    previewUrl: "https://my-portfolio-kappa-ten-89.vercel.app/",
   },
 
   {
