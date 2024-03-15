@@ -35,8 +35,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm a web developer and UI/UX designer passionate about crafting exceptional digital experiences. 
-          Explore my portfolio and let's create something extraordinary together.
+          I&apos;m a web developer and UI/UX designer passionate about crafting exceptional digital experiences. 
+          Explore my portfolio and let&apos;s create something extraordinary together.
           </p>
           <div>
             <Link
