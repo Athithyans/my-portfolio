@@ -29,7 +29,7 @@ const projectsData = [
     title: "Legal Awareness Guide",
     description: "The Legal Awareness App revolutionizes legal assistance in India with its user-friendly interface, multilingual support, and comprehensive features. It simplifies legal jargon, educates users on their rights, predicts case success, offers step-by-step filing guidance, connects users with nearby advocates, and keeps them updated on legal developments.",
     image: "/images/projects/4.png",
-    tag: ["All", "Web "],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/gallantgeeks/Know-Your-Rights",
     previewUrl: "/",
   },
@@ -77,6 +77,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
